@@ -1,0 +1,130 @@
+*
+{
+margin: 0px;
+padding: 0px;
+
+font-family: "Verdana", sans-serif;
+}
+body
+{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #891715;
+}
+
+.parent
+{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.content
+{
+    
+    height: 100%;
+    width: 78%;
+    
+    
+
+}
+.menu
+{
+    background-color: #909090;
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.home, .service, .contact
+{
+     background-color: #909090;
+    color: white;
+    padding: 10px;
+}
+.slika1
+{
+    margin-top: 25px;
+    height: 70px; width: 200px;
+    margin-bottom: 25px;
+}
+.content1
+{
+    
+    background-color: #909090;
+    
+}
+.text1
+{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    background-color: #87A984;
+    
+}
+.slika2
+{
+    width: 250px;
+    
+   margin: 70px;
+}
+.paragraf
+{
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+}
+.container2
+{
+    display: flex;
+    
+    margin-top: 15px;
+    height: 550px;
+}
+.lijevo
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-color: #96AFAC;
+    width: 30%;
+    
+    height: 100%;
+}
+.lijevo1
+{
+
+    width: 70%;
+   
+ color: white;
+    margin-top: 25px;
+}
+.about
+{
+    border-bottom: 1px solid rgba(213,223,222, .5);
+    padding: 10px;
+    text-align: left;
+}
+.about2
+{
+    border-bottom: 1px solid rgba(213,223,222, 1);
+    padding: 10px;
+    text-align: left;
+}
+.desno
+{
+    font-size: 14px; 
+    padding: 10px 30px 10px 30px;
+    background-color: #DBD8C5;
+   
+    width: 70%;
+}
+.desno h1
+{
+     color: #586E7E;
+}
+.desno p, .desno h1
+{
+    padding: 10px;
+}
